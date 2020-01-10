@@ -1,0 +1,17 @@
+.add-task-btn {
+  @include btn-main;
+  right: 0;
+}
+.edit-task-btn {
+  @include btn-main;
+  right: 1em;
+}
+.clear-all-btn {
+  @include btn-clear;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-family: $list-font;
+}
+
+

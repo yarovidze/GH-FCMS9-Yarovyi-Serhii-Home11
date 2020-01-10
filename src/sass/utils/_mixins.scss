@@ -1,0 +1,41 @@
+@mixin btn-main {
+  text-decoration: none;
+  position: absolute;
+  outline: none;
+  padding: 5px 30px;
+  border: solid 2px black;
+  cursor: pointer;
+  font-family: $main-font;
+  &:hover {
+    opacity: 0.8;
+    background-color: #e2e3e5;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+@mixin btn-clear {
+  padding: 0;
+  position: absolute;
+  outline: none;
+  cursor: pointer;
+  color: darkred;
+  border: none;
+  background-color: transparent;
+  padding: 5px 10px;
+  &:hover {
+    opacity: 0.8;
+    background-color: #e2e3e5;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+@mixin form {
+  padding: 5px 20px;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  border: solid 2px gray;
+  font-family: $main-font;
+}
