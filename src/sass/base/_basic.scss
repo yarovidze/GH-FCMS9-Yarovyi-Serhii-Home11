@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  font-family: $main-font;
+  font-weight: 400;
+}
+h1 {
+  font-size: 50px;
+  font-family: $decoration-font;
+  padding-top: 0.5em;
+}
+h2 {
+  font-size: 28px;
+  font-family: $list-font;
+}
+h3{
+  font-size: 18px;
+  font-family: $main-font;
+}
+li {
+  list-style: none;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 18px;
+  border-bottom: dotted 1px gainsboro;
+  cursor: pointer;
+  font-family: $list-font;
+  &:hover {
+    background-color: #ececec;
+  }
+}
+ul {
+  margin-inline-end: 20px;
+  padding-inline-start: 40px;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+}

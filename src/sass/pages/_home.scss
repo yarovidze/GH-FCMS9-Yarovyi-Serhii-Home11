@@ -1,0 +1,29 @@
+.main-block {
+  background-image: url(../img/backgr.png);
+  background-repeat: repeat;
+  background-position: 0 0;
+  height: 100vh;
+  text-align: center;
+  & .task-form {
+    position: relative;
+  }
+  & .task-container {
+    position: relative;
+    margin: 30px 0;
+    border: solid 2px gainsboro;
+    background-color: white;
+    padding: 10px;
+    &:hover {
+      box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    }
+  }
+}
+.task-done {
+  text-decoration: line-through;
+  color: green;
+  list-style-image: url(../img/tick.png);
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
