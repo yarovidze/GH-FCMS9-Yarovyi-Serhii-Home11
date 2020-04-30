@@ -24,6 +24,6 @@
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
